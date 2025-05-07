@@ -6,6 +6,7 @@
 
 ## git clone  https://github.com/sirpdboy/luci-app-watchdog
 
+插件特色： 解决OPENWRT安全登陆管控问题，适配openwr24.10, 自动适配iptablet FW3和nft FW4.  可以监控WEB页和SSH登陆情况。 失败多次后自动拉黑到黑名单。
 
 ## 2025.5.1  看门狗 1.0.1 解决OPENWRT安全问题。
 
