@@ -9,259 +9,259 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 msgid "watchdog"
-msgstr "看门狗"
+msgstr ""
 
 msgid "Watch Dog"
-msgstr "看门狗"
+msgstr ""
 
 msgid "Basic Settings"
-msgstr "基本设置"
+msgstr ""
 
 msgid "Advance Setting"
-msgstr "高级设置"
+msgstr ""
 
 msgid "Checking status..."
-msgstr "检查状态..."
+msgstr ""
 
 msgid "Log"
-msgstr "日志"
+msgstr ""
 
 msgid "This is the security watchdog plugin for OpenWRT, which monitors and guards web login, SSH connections, and other situations.<br /><br />If you encounter any issues while using it, please submit them here:"
-msgstr "这是openwrt的安全看门狗插件，监视和守护WEB登陆SSH连接等情况<br /><br />如果你在使用中遇到问题，请到这里提交："
+msgstr ""
 
 msgid "GitHub Project Address"
-msgstr "GitHub 项目地址"
+msgstr ""
 
 msgid "Login control"
-msgstr "管控内容"
+msgstr ""
 
 msgid "Black list"
-msgstr "黑名单"
+msgstr ""
 
 msgid "White list"
-msgstr "白名单"
+msgstr ""
 
 msgid "You may need to save the configuration before sending."
-msgstr "你可能需要先保存配置再进行发送"
+msgstr ""
 
 msgid "Unknown error: %s."
-msgstr "未知错误：%s"
+msgstr ""
 
 msgid "Check Interval (s)"
-msgstr "检测间隔时间（秒）"
+msgstr ""
 
 msgid "Shorter intervals provide quicker response but consume more system resources."
-msgstr "越短的间隔时间响应越快，但会占用更多的系统资源"
+msgstr ""
 
 
 msgid "Web Login"
-msgstr "Web 登录"
+msgstr ""
 
 msgid "SSH Login"
-msgstr "SSH 登录"
+msgstr ""
 
 msgid "Frequent Web Login Errors"
-msgstr "Web 频繁错误登录"
+msgstr ""
 
 msgid "Frequent SSH Login Errors"
-msgstr "SSH 频繁错误登录"
+msgstr ""
 
 msgid "Login failure count"
-msgstr "登录失败次数"
+msgstr ""
 
 msgid "Reminder and optional automatic IP ban after exceeding the number of times"
-msgstr "超过次数后记录并可选自动封禁IP"
+msgstr ""
 
 
 
 msgid "Please select device MAC"
-msgstr "请选择设备 MAC"
+msgstr ""
 
 msgid "Auto-ban unauthorized login devices"
-msgstr "自动封禁非法登录设备"
+msgstr ""
 
 msgid "Blacklisting time (s)"
-msgstr "拉黑时间（秒）"
+msgstr ""
 
 msgid "\"0\" in ipset means permanent blacklist, use with caution. If misconfigured, change the device IP and clear rules in LUCI."
-msgstr "\"0\" 为永久拉黑，慎用。如不幸误操作，请更改设备 IP 进入 LUCI 界面清空规则。"
+msgstr ""
 
 msgid "Release port"
-msgstr "放行端口"
+msgstr ""
 
 msgid "Port"
-msgstr "端口"
+msgstr ""
 
-msgid "Open port after successful login<br/>example：\"22\"、\"21:25\"、\"21:25,135:139\""
-msgstr "登录成功后开放端口<br/>例：\"22\"、\"21:25\"、\"21:25,135:139\""
+msgid "Open port after successful login<br/>example��\"22\"��\"21:25\"��\"21:25,135:139\""
+msgstr ""
 
 msgid "If you have disabled LAN port inbound and forwarding in Firewall - Zone Settings, it won't work."
-msgstr "如在 防火墙 - 区域设置 中禁用了 LAN 口入站和转发，该功能将不起作用"
+msgstr ""
 
 msgid "Example: Forward port 13389 of this device (IPv4:10.0.0.1 / IPv6:fe80::10:0:0:2) to port 3389 of (IPv4:10.0.0.2 / IPv6:fe80::10:0:0:8)<br/>\"10.0.0.1,13389,10.0.0.2,3389\"<br/>\"fe80::10:0:0:1,13389,fe80::10:0:0:2,3389\""
-msgstr "例：将本机 (IPv4:10.0.0.1 / IPv6:fe80::10:0:0:2) 的 13389 端口转发到 (IPv4:10.0.0.2 / IPv6:fe80::10:0:0:8) 的 3389 端口:<br/>\"10.0.0.1,13389,10.0.0.2,3389\"<br/>\"fe80::10:0:0:2,13389,fe80::10:0:0:8,3389\""
+msgstr ""
 
 msgid "Release time (s)"
-msgstr "放行时间（秒）"
+msgstr ""
 
 msgid "\"0\" in ipset means permanent release, use with caution"
-msgstr "\"0\" 为永久放行，慎用"
+msgstr ""
 
 msgid "IP blacklist"
-msgstr "IP黑名单列表"
+msgstr ""
 
 msgid "Automatic ban blacklist list, with the ban time following the IP address"
-msgstr "自动封禁黑名单列表，IP后面是封禁时间"
+msgstr ""
 
 
 msgid "MAC Filtering Mode"
-msgstr "MAC 过滤模式"
+msgstr ""
 
 msgid "Ignore devices in the list"
-msgstr "忽略列表内设备"
+msgstr ""
 
 msgid "Ignored devices will not logged"
-msgstr "被忽略设备不做日志记录"
+msgstr ""
 
 msgid "Notify only devices in the list"
-msgstr "仅通知列表内设备"
+msgstr ""
 
 msgid "Notify only devices using this interface"
-msgstr "仅通知此接口设备"
+msgstr ""
 
 msgid "Multiple choice is not currently supported"
-msgstr "暂不支持多选"
+msgstr ""
 
 msgid "Ignored device list"
-msgstr "忽略设备列表"
+msgstr ""
 
 msgid "Followed device list"
-msgstr "关注设备列表"
+msgstr ""
 
 msgid "Notify only devices using this interface"
-msgstr "仅通知此接口设备"
+msgstr ""
 
 
 msgid "Login (Auto-Ban) Whitelist"
-msgstr "登录（自动封禁）白名单"
+msgstr ""
 
 msgid "Add the IP addresses in the list to the whitelist for the blocking function (if available), Only record in the log. Mask notation is currently not supported."
-msgstr "列表内 IP 加入封禁功能白名单(如果可用)，仅在日志中记录，暂不支持掩码位表示"
+msgstr ""
 
 msgid "If you are not familiar with the meanings of these options, please do not modify them.<br/><br/>"
-msgstr "如果你不了解这些选项的含义，请不要修改这些选项<br/><br/>"
+msgstr ""
 
 msgid "Advanced Settings"
-msgstr "高级设置"
+msgstr ""
 
 msgid "Device online detection timeout (s)"
-msgstr "设备上线检测超时（秒）"
+msgstr ""
 
 msgid "Device offline detection timeout (s)"
-msgstr "设备离线检测超时（秒）"
+msgstr ""
 
 msgid "Offline detection count"
-msgstr "离线检测次数"
+msgstr ""
 
-msgid "If the device has good signal strength and no Wi-Fi sleep issues, you can reduce the above values.<br/>Due to the mysterious nature of Wi-Fi sleep during the night, if you encounter frequent disconnections, please adjust the parameters accordingly.<br/>..╮(╯_╰）╭.."
-msgstr "若设备信号强度良好，无息屏 WiFi 休眠问题，可以减少以上数值<br/>因夜间 WiFi 息屏休眠较为玄学，遇到设备频繁推送断开，烦请自行调整参数<br/>..╮(╯_╰）╭.."
+msgid "If the device has good signal strength and no Wi-Fi sleep issues, you can reduce the above values.<br/>Due to the mysterious nature of Wi-Fi sleep during the night, if you encounter frequent disconnections, please adjust the parameters accordingly.<br/>..�r(�s_�t���q.."
+msgstr ""
 
 
 msgid "Devices"
-msgstr "设备"
+msgstr ""
 
 msgid "Disable active detection"
-msgstr "关闭主动探测"
+msgstr ""
 
 msgid "Maximum concurrent processes"
-msgstr "最大并发进程数"
+msgstr ""
 
 msgid "Do not change the setting value for low-performance devices, or reduce the parameters as appropriate."
-msgstr "低性能设备请勿更改设置值，或酌情减少参数"
+msgstr ""
 
 
 msgid "Online time"
-msgstr "在线时间"
+msgstr ""
 
 msgid "Clear Logs..."
-msgstr "清除日志..."
+msgstr ""
 
 msgid "Logs cleared successfully!"
-msgstr "日志清除成功！"
+msgstr ""
 
 msgid "Clear Logs"
-msgstr "清除日志"
+msgstr ""
 
 msgid "Refresh every 5 seconds."
-msgstr "每 5 秒刷新"
+msgstr ""
 
 msgid "Content 1"
-msgstr "内容1"
+msgstr ""
 
 msgid "Content 2"
-msgstr "内容2"
+msgstr ""
 
 msgid "Device 1"
-msgstr "设备1"
+msgstr ""
 
 msgid "Device 2"
-msgstr "设备2"
+msgstr ""
 
 msgid "Device 3"
-msgstr "设备3"
+msgstr ""
 
 msgid "Device 4"
-msgstr "设备4"
+msgstr ""
 
 
 msgid "Device %s logged into router via %s"
-msgstr "设备 %s 通过 %s 登录了路由器"
+msgstr ""
 
 msgid "/ (Homepage login)"
-msgstr "/ (首页登录)"
+msgstr ""
 
 msgid "%s frequent %s login attempts"
-msgstr "%s 频繁尝试 %s 登录"
+msgstr ""
 
 msgid "Block Information"
-msgstr "封禁信息"
+msgstr ""
 
 msgid "Device %s (%s) frequently attempted %s %s login"
-msgstr "设备 %s (%s) 频繁尝试 %s %s 登录"
+msgstr ""
 
 msgid "%s logged into router via %s"
-msgstr "%s 通过 %s 登录了路由器"
+msgstr ""
 
 msgid "Login Information"
-msgstr "登录信息"
+msgstr ""
 
 msgid "Device %s (%s) logged into router via %s %s"
-msgstr "设备 %s (%s) 通过 %s %s 登录了路由器"
+msgstr ""
 
 msgid "Time:"
-msgstr "时间："
+msgstr ""
 
 msgid "Device IP:"
-msgstr "设备 IP："
+msgstr ""
 
 msgid "Login Method:"
-msgstr "登录方式："
+msgstr ""
 
 
 msgid "Initialization completed"
-msgstr "初始化完成"
+msgstr ""
 
 msgid "Start running..."
-msgstr "开始运行..."
+msgstr ""
 
 
 msgid "[Ban information]Cancel the ban IP:%s"
-msgstr "[封禁信息]取消封禁IP：%s "
+msgstr ""
 
 msgid "[Block Information]Add to blacklist IP: %s Attempts:%s Time:%s"
-msgstr "[封禁信息]添加黑名单IP：%s 尝试次数: %s 时间：%s"
+msgstr ""
 
 
 msgid "Failed to add to blacklist, invalid IP format: %s (removed from list)"
-msgstr "黑名单添加失败，IP %s 格式错误，已从列表中移除"
+msgstr ""
 

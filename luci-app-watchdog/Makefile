@@ -6,8 +6,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-watchdog
-PKG_VERSION:=1.0.1
-PKG_RELEASE:=
+PKG_VERSION:=1.0.3
+PKG_RELEASE:=20250511
 
 PKG_MAINTAINER:=sirpdboy  <herboy2008@gmail.com>
 PKG_CONFIG_DEPENDS:=
