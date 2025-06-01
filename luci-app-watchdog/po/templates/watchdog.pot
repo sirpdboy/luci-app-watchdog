@@ -92,7 +92,7 @@ msgstr ""
 msgid "Port"
 msgstr ""
 
-msgid "Open port after successful login<br/>exampleÂ£Âº\"22\"Â¡Â¢\"21:25\"Â¡Â¢\"21:25,135:139\""
+msgid "Open port after successful login<br/>example£º\"22\"¡¢\"21:25\"¡¢\"21:25,135:139\""
 msgstr ""
 
 msgid "If you have disabled LAN port inbound and forwarding in Firewall - Zone Settings, it won't work."
@@ -163,7 +163,7 @@ msgstr ""
 msgid "Offline detection count"
 msgstr ""
 
-msgid "If the device has good signal strength and no Wi-Fi sleep issues, you can reduce the above values.<br/>Due to the mysterious nature of Wi-Fi sleep during the night, if you encounter frequent disconnections, please adjust the parameters accordingly.<br/>..Â¨r(Â¨s_Â¨tÂ£Â©Â¨q.."
+msgid "If the device has good signal strength and no Wi-Fi sleep issues, you can reduce the above values.<br/>Due to the mysterious nature of Wi-Fi sleep during the night, if you encounter frequent disconnections, please adjust the parameters accordingly.<br/>..¨r(¨s_¨t£©¨q.."
 msgstr ""
 
 
