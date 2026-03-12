@@ -1,4 +1,4 @@
-name: Build ddns-go Packages
+name: Build Packages
 
 on:
   workflow_dispatch:
