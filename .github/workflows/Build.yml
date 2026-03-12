@@ -33,7 +33,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Build packages
-        uses: sirpdboy/openwrt-gh-action-sdk@main
+        uses: sirpdboy/gh-action-sdk@main
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: packages_ci
